@@ -1,0 +1,254 @@
+* {
+	margin: $cero;
+}
+
+.navbar {
+	background-color: $background_navbar;
+	.navbar-default {
+		border-color: transparent;
+		border-bottom-width: $cero;
+		margin-bottom: $cinco;
+		.navbar-nav {
+			padding-left: $cuatrocientos;
+			text-align: center;
+			li{
+				a{
+					color: $blanco;
+					border-color:none;
+				}
+				a:hover, a:focus {
+					color: $background_amarillo;
+					background-color: transparent;	
+				}
+			}
+		}
+	}
+}
+
+.servicios {
+	width: 100%;
+	background-color: $background_amarillo;
+	height: auto;
+	.caja-cir-todo {
+		position: relative;
+		bottom: $sesenta;
+		.img-cir {
+			img{
+				border-radius: $radius;
+				padding: $diez;
+				background-color: $color_cirulos;
+				width: $ochenta-ciento;				
+			}
+		}
+		h5{
+			margin-top: $treinta;
+		}
+		p{
+			font-weight: $doscientos-w;
+			font-size: $doce;
+		}
+		.read-more {
+			margin-bottom: 30px;
+			p{
+				font-weight: $cuatrocientos;	
+				padding: $cinco;
+				background-color: $color_cirulos;
+				margin: $cuarenta $ochenta $cero $ochenta;
+			}	
+		}
+	}
+}
+
+.welcome {
+	background-color: $background_gris;
+	.img-welcome {
+		margin: $cincuenta $cero;
+		img{
+			border-radius: $diez;
+		}	
+	}
+	.text-welcome {
+		margin: $treinta $cero;		
+		h4{
+			color: $color_damasco;
+			font-weight: $doscientos-w;
+			text-align: center;
+		}
+		p{
+			.glyphicon {
+				color: $color_damasco;
+			}
+		}
+	}
+}
+
+.about-gift {
+	background-color: $background_cafe_about;
+	padding: $cincuenta $cero;
+	.text-about-welcome {
+		color: $background_amarillo;
+		h3{
+			font-weight:$doscientos-w;
+		}
+		hr{
+			width: $radius;
+			float: right;
+
+		}
+		.fa-circle-thin {
+			color: $blanco;
+		    position: relative;
+		    left: 278px;
+		    bottom: $uno * 3;
+			clear: both;
+			padding-top:$quince;
+		}
+		.fa-circle-thin:before {
+
+		    background-color: $background_cafe_about;
+		    content: "\f1db";
+		}
+		img{			
+			float: left;
+			border-radius: $veinte;
+			margin: $treinta;
+		}
+	}
+
+	.text-about-gift {
+		color: $background_amarillo;		
+		h3{
+			font-weight: $doscientos-w;
+		}
+		hr{
+			width: $radius;
+			padding-left: 3px;
+			position: relative;
+   	 		top: $diez;	
+   	 		margin-bottom: $cero;		
+		}
+		.fa-circle-thin {
+			color: $blanco;
+		    position: relative;
+		    bottom: 14px;
+			clear: both;
+			padding-top:$quince;
+		}
+		.fa-circle-thin:before {
+		    background-color: $background_cafe_about;
+		    content: "\f1db";
+		}		
+		img{
+			float: right;
+			border-radius: $veinte;
+			margin:  $cincuenta $treinta $treinta $treinta;
+		}		
+	}
+}
+
+footer{
+	background-color: $background_navbar;
+	padding: $cincuenta $veinte;
+	color: $background_amarillo;
+	.footer-follow {
+		.follow{
+			margin-bottom: 30px;
+			h4{
+				font-weight: $doscientos-w;
+				margin-bottom: $treinta;
+			}	
+			img{
+				margin-left: $quince;
+				background-color: $background_amarillo;
+				border-radius: $radius;
+				height: $cien-ciento;
+				border: $cinco solid $color_durazno;
+			}
+		}
+
+		.talking {
+			margin-bottom: 30px;			
+			.fa-quote-left{
+				color: $color_durazno;
+				font-size: $treinta;
+				float: left;
+				margin: $cero $quince $diez $cero;
+			}
+			p{
+				font-size: $trece;
+			}
+		}
+
+		.contact {
+			margin-bottom: 30px;			
+			h5{
+				font-weight: $seiscientos-w;
+				margin-bottom: $veinte;
+			}
+
+			p{
+				font-size: $doce;
+				span{
+					color: $color_durazno;
+				}
+			}
+		}
+	}
+	
+	.footer-final {
+		hr{
+			color: $background_amarillo;
+		}
+
+		p{
+			font-size: $doce;
+		}
+	}
+}
+
+@media (min-width: 1px) and (max-width: 600px){
+	.navbar{
+		.navbar-default {
+			.navbar-nav {
+				padding-left: $cero;
+				text-align: center;
+			}
+		}
+	}
+	.carrusel {
+		position: relative;
+		top: 50px;
+	}
+	.servicios {
+		.caja-cir-todo {
+		position: relative;
+		bottom: -80px;
+		padding-bottom:70px;
+			.img-cir {
+				p{
+					font-weight:$cuatrocientos;	
+					padding:$cinco;
+					background-color: $color_cirulos;
+					margin: $cuarenta $ochenta $cero $ochenta;
+				}	
+			}
+		}
+	}
+	.about-gift {
+		.text-about-welcome {
+			.fa-circle-thin {
+			    left: 170px;
+			}
+		}	
+	}
+	footer {
+		.footer-follow {
+			.follow {
+				img{
+					margin-left: $treinta;
+					margin-bottom: $quince;
+				}
+			}
+		}
+	}
+}

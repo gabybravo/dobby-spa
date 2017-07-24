@@ -5801,5 +5801,175 @@ button.close {
 /* Pixeles */
 /* Peso Tipograf├¡as */
 /*Porcentajes*/
+* {
+  margin: 0; }
+
+.navbar {
+  background-color: #231717; }
+  .navbar .navbar-default {
+    border-color: transparent;
+    border-bottom-width: 0;
+    margin-bottom: 5px; }
+    .navbar .navbar-default .navbar-nav {
+      padding-left: 400px;
+      text-align: center; }
+      .navbar .navbar-default .navbar-nav li a {
+        color: #FFFFFF;
+        border-color: none; }
+      .navbar .navbar-default .navbar-nav li a:hover, .navbar .navbar-default .navbar-nav li a:focus {
+        color: #E3DAA9;
+        background-color: transparent; }
+
+.servicios {
+  width: 100%;
+  background-color: #E3DAA9;
+  height: auto; }
+  .servicios .caja-cir-todo {
+    position: relative;
+    bottom: 60px; }
+    .servicios .caja-cir-todo .img-cir img {
+      border-radius: 50%;
+      padding: 10px;
+      background-color: #D1B172;
+      width: 80%; }
+    .servicios .caja-cir-todo h5 {
+      margin-top: 30px; }
+    .servicios .caja-cir-todo p {
+      font-weight: 200;
+      font-size: 12px; }
+    .servicios .caja-cir-todo .read-more {
+      margin-bottom: 30px; }
+      .servicios .caja-cir-todo .read-more p {
+        font-weight: 400px;
+        padding: 5px;
+        background-color: #D1B172;
+        margin: 40px 80px 0 80px; }
+
+.welcome {
+  background-color: #F0F0F0; }
+  .welcome .img-welcome {
+    margin: 50px 0; }
+    .welcome .img-welcome img {
+      border-radius: 10px; }
+  .welcome .text-welcome {
+    margin: 30px 0; }
+    .welcome .text-welcome h4 {
+      color: #C55531;
+      font-weight: 200;
+      text-align: center; }
+    .welcome .text-welcome p .glyphicon {
+      color: #C55531; }
+
+.about-gift {
+  background-color: #392C2C;
+  padding: 50px 0; }
+  .about-gift .text-about-welcome {
+    color: #E3DAA9; }
+    .about-gift .text-about-welcome h3 {
+      font-weight: 200; }
+    .about-gift .text-about-welcome hr {
+      width: 50%;
+      float: right; }
+    .about-gift .text-about-welcome .fa-circle-thin {
+      color: #FFFFFF;
+      position: relative;
+      left: 278px;
+      bottom: 3px;
+      clear: both;
+      padding-top: 15px; }
+    .about-gift .text-about-welcome .fa-circle-thin:before {
+      background-color: #392C2C;
+      content: "\f1db"; }
+    .about-gift .text-about-welcome img {
+      float: left;
+      border-radius: 20px;
+      margin: 30px; }
+  .about-gift .text-about-gift {
+    color: #E3DAA9; }
+    .about-gift .text-about-gift h3 {
+      font-weight: 200; }
+    .about-gift .text-about-gift hr {
+      width: 50%;
+      padding-left: 3px;
+      position: relative;
+      top: 10px;
+      margin-bottom: 0; }
+    .about-gift .text-about-gift .fa-circle-thin {
+      color: #FFFFFF;
+      position: relative;
+      bottom: 14px;
+      clear: both;
+      padding-top: 15px; }
+    .about-gift .text-about-gift .fa-circle-thin:before {
+      background-color: #392C2C;
+      content: "\f1db"; }
+    .about-gift .text-about-gift img {
+      float: right;
+      border-radius: 20px;
+      margin: 50px 30px 30px 30px; }
+
+footer {
+  background-color: #231717;
+  padding: 50px 20px;
+  color: #E3DAA9; }
+  footer .footer-follow .follow {
+    margin-bottom: 30px; }
+    footer .footer-follow .follow h4 {
+      font-weight: 200;
+      margin-bottom: 30px; }
+    footer .footer-follow .follow img {
+      margin-left: 15px;
+      background-color: #E3DAA9;
+      border-radius: 50%;
+      height: 100%;
+      border: 5px solid #D5734D; }
+  footer .footer-follow .talking {
+    margin-bottom: 30px; }
+    footer .footer-follow .talking .fa-quote-left {
+      color: #D5734D;
+      font-size: 30px;
+      float: left;
+      margin: 0 15px 10px 0; }
+    footer .footer-follow .talking p {
+      font-size: 13px; }
+  footer .footer-follow .contact {
+    margin-bottom: 30px; }
+    footer .footer-follow .contact h5 {
+      font-weight: 600;
+      margin-bottom: 20px; }
+    footer .footer-follow .contact p {
+      font-size: 12px; }
+      footer .footer-follow .contact p span {
+        color: #D5734D; }
+  footer .footer-final hr {
+    color: #E3DAA9; }
+  footer .footer-final p {
+    font-size: 12px; }
+
+@media (min-width: 1px) and (max-width: 600px) {
+  .navbar .navbar-default .navbar-nav {
+    padding-left: 0;
+    text-align: center; }
+
+  .carrusel {
+    position: relative;
+    top: 50px; }
+
+  .servicios .caja-cir-todo {
+    position: relative;
+    bottom: -80px;
+    padding-bottom: 70px; }
+    .servicios .caja-cir-todo .img-cir p {
+      font-weight: 400px;
+      padding: 5px;
+      background-color: #D1B172;
+      margin: 40px 80px 0 80px; }
+
+  .about-gift .text-about-welcome .fa-circle-thin {
+    left: 170px; }
+
+  footer .footer-follow .follow img {
+    margin-left: 30px;
+    margin-bottom: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
